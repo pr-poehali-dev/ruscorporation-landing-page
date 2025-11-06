@@ -77,7 +77,7 @@ const Index = () => {
                 className="rounded-lg shadow-2xl"
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-lg shadow-xl">
-                <div className="text-4xl font-heading font-bold text-primary">18+</div>
+                <div className="text-4xl font-heading font-bold text-primary">10+</div>
                 <div className="text-sm text-muted-foreground">лет на рынке</div>
               </div>
             </div>
