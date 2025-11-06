@@ -53,10 +53,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
               <h1 className="font-heading md:text-6xl font-bold mb-6 text-foreground text-4xl">Надежная охрана для вас и вашего бизнеса</h1>
-              <p className="text-xl text-muted-foreground mb-8">
-                Профессиональные услуги частной охраны и консалтинга с 2005 года. 
-                Все виды лицензий. Опытные сотрудники. Индивидуальный подход.
-              </p>
+              <p className="text-xl text-muted-foreground mb-8">Профессиональные услуги частной охраны и консалтинга с 2015 года. Все виды лицензий. Опытные сотрудники. Индивидуальный подход.</p>
               <div className="flex flex-wrap gap-4">
                 <Button size="lg" className="bg-primary hover:bg-primary/90">
                   <Icon name="Shield" size={20} className="mr-2" />
