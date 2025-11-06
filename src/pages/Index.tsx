@@ -467,7 +467,7 @@ const Index = () => {
               <div className="space-y-2 text-sm opacity-90">
                 <div>+7 (925) 047-42-25</div>
                 <div>info@ruscorp-security.ru</div>
-                <div>г. Москва, ул. Примерная, 10</div>
+                <div>г. Москва, ул. Новая дорога, 9 к2</div>
               </div>
             </div>
           </div>
