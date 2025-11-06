@@ -161,7 +161,7 @@ const Index = () => {
             <div className="grid grid-cols-2 gap-6">
               <Card>
                 <CardHeader className="text-center">
-                  <div className="text-4xl font-heading font-bold text-primary">500+</div>
+                  <div className="text-4xl font-heading font-bold text-primary">2000+</div>
                   <CardDescription>Охраняемых объектов</CardDescription>
                 </CardHeader>
               </Card>
@@ -173,7 +173,7 @@ const Index = () => {
               </Card>
               <Card>
                 <CardHeader className="text-center">
-                  <div className="text-4xl font-heading font-bold text-primary">18</div>
+                  <div className="text-4xl font-heading font-bold text-primary">10+</div>
                   <CardDescription>Лет на рынке</CardDescription>
                 </CardHeader>
               </Card>
