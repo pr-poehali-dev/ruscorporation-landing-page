@@ -52,9 +52,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
-              <h1 className="font-heading text-5xl md:text-6xl font-bold mb-6 text-foreground">
-                Надежная охрана вашего бизнеса
-              </h1>
+              <h1 className="font-heading md:text-6xl font-bold mb-6 text-foreground text-4xl">Надежная охрана для вас и вашего бизнеса</h1>
               <p className="text-xl text-muted-foreground mb-8">
                 Профессиональные услуги частной охраны и консалтинга с 2005 года. 
                 Все виды лицензий. Опытные сотрудники. Индивидуальный подход.
