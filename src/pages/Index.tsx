@@ -460,9 +460,7 @@ const Index = () => {
                 />
                 <div className="font-heading font-bold text-lg">Рускорпорация</div>
               </div>
-              <p className="text-sm opacity-90">
-                Профессиональная охрана и безопасность с 2005 года
-              </p>
+              <p className="text-sm opacity-90">Профессиональная охрана и безопасность с 2015 года</p>
             </div>
             <div>
               <h3 className="font-heading font-semibold mb-4">Услуги</h3>
