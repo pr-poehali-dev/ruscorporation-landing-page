@@ -2,15 +2,13 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
+
 import Icon from '@/components/ui/icon';
 
 const Index = () => {
   const [formData, setFormData] = useState({
     name: '',
-    phone: '',
-    email: '',
-    message: ''
+    phone: ''
   });
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -420,23 +418,7 @@ const Index = () => {
                       required
                     />
                   </div>
-                  <div>
-                    <Input 
-                      type="email"
-                      placeholder="Email" 
-                      value={formData.email}
-                      onChange={(e) => setFormData({...formData, email: e.target.value})}
-                      required
-                    />
-                  </div>
-                  <div>
-                    <Textarea 
-                      placeholder="Сообщение" 
-                      rows={4}
-                      value={formData.message}
-                      onChange={(e) => setFormData({...formData, message: e.target.value})}
-                    />
-                  </div>
+
                   <Button type="submit" className="w-full">
                     <Icon name="Send" size={18} className="mr-2" />
                     Отправить заявку
